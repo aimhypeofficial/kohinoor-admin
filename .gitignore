@@ -1,7 +1,8 @@
 node_modules/
 dist/
-# local settings (Vercel uses .env.production or its Environment Variables)
+# local settings (on Vercel set VITE_* under Settings -> Environment Variables)
 .env
+.env.production
 .env.local
 .env.*.local
 *.log
