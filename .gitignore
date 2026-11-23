@@ -1,0 +1,7 @@
+node_modules/
+dist/
+# local settings (Vercel uses .env.production or its Environment Variables)
+.env
+.env.local
+.env.*.local
+*.log
